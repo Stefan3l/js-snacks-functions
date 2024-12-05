@@ -11,9 +11,9 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
  * @returns {array} Il risultato e solo il primo caratere di un elemnto del array
  * 
  */
-
+let initialLet = [];
 const isLetInitial = (array) => {
-        let initialLet = [];
+        
         for(let i = 0; i <= names.length - 1; i++) {   
         initialLet.push(names[i][0])     
     }

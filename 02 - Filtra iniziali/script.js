@@ -11,9 +11,9 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
  * @param {lettera} Inserisci la lettera iniziale 
  * @returns {arrayNames} Risultato di elementi che iniziano con la lettera aggiunta
  */
-
+let isNames = [];
 const namesInitLateSame = (array, letInit) => {
-        let isNames = [];
+        
     for ( i = 0; i <= array.length - 1; i++) {
         
         if( array[i].includes(letInit)) {
