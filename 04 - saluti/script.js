@@ -5,7 +5,7 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
-const sentence = (name, word) => (`${word} ${userName}`);
+const sentence = (name, word) => (`${word} ${name}`);
 
 // Invoca la funzione qui e stampa il risultato in console
 
