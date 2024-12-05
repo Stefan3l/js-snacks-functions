@@ -4,19 +4,25 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+/**
+ * Check serve per filtrare i elementi di un array in base a una lettera iniziale
+ * 
+ * @param {array} Inserisci il nome del array
+ * @param {lettera} Inserisci la lettera iniziale 
+ * @returns {arrayNames} Risultato di elementi che iniziano con la lettera aggiunta
+ */
+
 const namesInitLateSame = (array, letInit) => {
-        
+        let isNames = [];
     for ( i = 0; i <= array.length - 1; i++) {
         
         if( array[i].includes(letInit)) {
-        }       
-        return array[i]
-
+            isNames.push(array[i])
+        }     
     }
+    return isNames  
 } 
     
-
-
 // Invoca la funzione qui e stampa il risultato in console
 
 const namesLetAdd = namesInitLateSame(names, "A")
